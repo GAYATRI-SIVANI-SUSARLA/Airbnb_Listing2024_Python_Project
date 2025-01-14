@@ -90,6 +90,9 @@ The dataset contains 20,765 entries and 22 features(columns), including:
   5. **Host Behaviour:**
       - Some hosts manage **multiple listings**, indicating a trend toward professional hosting
     
+    ## Code:
+  The code for all Data cleaning, EDA(Exploratory Data Analysis) processes, and data visualization is updated: [Airbnb listings EDA Code](https://github.com/GAYATRI-SIVANI-SUSARLA/Airbnb_Listing2024_Python_Project/blob/main/Airbnb_Project.ipynb)
+    
  ## Install & Import Libraries
  Install the required libraries:
  ```python
