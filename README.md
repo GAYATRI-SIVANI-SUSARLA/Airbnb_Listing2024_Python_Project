@@ -10,7 +10,8 @@ The goal of this project is to:
 4. Provide recommendations for guests and hosts based on insights.
 
 ## Dataset
-The dataset is uploaded: [Airbnb dataset](https://github.com/GAYATRI-SIVANI-SUSARLA/Airbnb_Listing2024_Python_Project/blob/main/datasets.csv)
+The dataset is uploaded: [Airbnb dataset](https://github.com/GAYATRI-SIVANI-SUSARLA/Airbnb_Listing2024_Python_Project/blob/main/datasets.csv).
+
 The dataset contains 20,765 entries and 22 features(columns), including:
 - id: Unique identifier for each listing
 - name: Title of the Airbnb listing
@@ -35,8 +36,9 @@ The dataset contains 20,765 entries and 22 features(columns), including:
  **2. Neighbourhood group insights:**
    - Analyzed price variations by boroughs.
    - Manhattan had the highest average prices.
+     
  **3. Availability trends:**
-     - Used **heatmaps** to show correlations among `price`, `availability_365`, 
+   - Used **heatmaps** to show correlations among `price`, `availability_365`, 
        `number_of_reviews`, and `beds`.
      
  **4. Price Distribution:**
@@ -47,9 +49,13 @@ The dataset contains 20,765 entries and 22 features(columns), including:
  - Analyzed hosts with multiple listings using **boxplots** to identify key contributors.
  
  **6. Review Behaviour:**
-  Used **pair plots** to show relationships between a number of reviews, price, and availability. 
+  - Used **pair plots** to show relationships between a number of reviews, price, and availability.
+
+  
  ### Data Visualization
- - **Pairplot:** 
+ - **Pairplot:** To see correlations among `price`, `availability`, `minimum nights`, and `number of reviews`.
+   ![image](https://github.com/user-attachments/assets/54c75592-3b6d-44a6-9e0c-34f9c6ee4f3f)
+
  - **Heatmap:**
  - **Histograms & Boxplot:**
  - **Bar Charts:**
