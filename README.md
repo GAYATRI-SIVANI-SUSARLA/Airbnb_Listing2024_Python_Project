@@ -52,7 +52,7 @@ The dataset contains 20,765 entries and 22 features(columns), including:
   - Used **pair plots** to show relationships between a number of reviews, price, and availability.
 
   
- ### Data Visualization
+ ### 3. Data Visualization
  - **Pairplot:** To see correlations among `price`, `availability`, `minimum nights`, and `number of reviews`.
    ![image](https://github.com/user-attachments/assets/54c75592-3b6d-44a6-9e0c-34f9c6ee4f3f)
 
@@ -67,26 +67,28 @@ The dataset contains 20,765 entries and 22 features(columns), including:
  - **Bar Charts:** Displaying `room types` and `neighborhood group` distributions
   ![image](https://github.com/user-attachments/assets/ecfbe718-60ef-498c-a34d-39b0f236e90e)
 - **Scatter Plot:** Geographical distribution of Airbnb with `latitude` and `longitude` concerning `room types`
-  ![image](https://github.com/user-attachments/assets/3f7da110-0098-4cde-b7f8-8f2bf8a31a30)
+  ![image](https://github.com/user-attachments/assets/d7249da0-877b-4d90-af0d-291b484705fc)
+
 
   ## Key Findings & Insights
   1. **Price Trends:**
-     - **Manhattan** has the most expensive listings, followed by Brooklyn.
-     - **Entire homes/apartments** cost significantly more than private or shared rooms.
+      - **Manhattan** has the most expensive listings, followed by Brooklyn.
+      - **Entire homes/apartments** cost significantly more than private or shared rooms.
   2. **Room type Distribution:**
-     - **Entire homes/apartments** are the most common, but **private rooms** offer budget- 
+      - **Entire homes/apartments** are the most common, but **private rooms** offer budget- 
         friendly options.
 
   3. **Outliers in Price:**
-      - Few listings priced at **$10,000+** were detected, indicating the need to filter such 
+       - Few listings priced at **$10,000+** were detected, indicating the need to filter such 
        extreme values.
      
   4. **Availability Patterns:**
-    - Listings with **high availability** tend to have lower prices and more reviews, likely due to better guest experience
+      - Listings with **high availability** tend to have lower prices and more reviews, likely 
+         due to a better guest experience
       
      
   5. **Host Behaviour:**
-     - Some hosts manage **multiple listings**, indicating a trend toward professional hosting
+      - Some hosts manage **multiple listings**, indicating a trend toward professional hosting
     
  ## Install & Import Libraries
  Install the required libraries:
